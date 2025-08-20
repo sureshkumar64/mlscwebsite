@@ -36,11 +36,11 @@ const UpcomingEvent = () => {
         {/* Registrations Badge */}
         <div className="inline-block px-6 py-2 mb-8 bg-gradient-to-r from-cyan-400 to-blue-500 
         text-[#0E1525] font-semibold rounded-full shadow-lg animate-pulse">
-          Registrations Open Now!
+          Registrations Open SOON!
         </div>
 
   
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -54,7 +54,7 @@ const UpcomingEvent = () => {
             encType="multipart/form-data"
             className="space-y-5"
           >
-            {/* Inputs */}
+       
             {["Full Name", "Mobile Number", "Email ID", "College"].map((label, i) => (
               <div key={i}>
                 <label className="block text-gray-300 mb-1">{label}</label>
@@ -70,7 +70,7 @@ const UpcomingEvent = () => {
               </div>
             ))}
 
-            {/* QR Code */}
+     
             <div className="text-center my-8">
               <p className="text-gray-300 mb-3 font-medium">Scan to complete your payment</p>
               <div className="inline-block p-3 rounded-xl border border-cyan-400/40 
@@ -83,7 +83,7 @@ const UpcomingEvent = () => {
               </div>
             </div>
 
-            {/* Screenshot Upload */}
+      
             <div>
               <label className="block text-gray-300 mb-1">Upload Payment Screenshot</label>
               <input
@@ -95,7 +95,7 @@ const UpcomingEvent = () => {
               />
             </div>
 
-            {/* Submit Button */}
+        
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -107,7 +107,7 @@ const UpcomingEvent = () => {
               Register Now
             </motion.button>
           </form>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

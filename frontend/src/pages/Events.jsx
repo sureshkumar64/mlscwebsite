@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const events = [
   {
-    title: "Azure Explore",
+    title: "AzureExplore",
     description:
       "Explore cloud computing and Microsoft Azure by starting with foundational concepts and Azure services. Gain hands-on experience in setting up and managing resources, and learn to build and deploy applications using Azure's tools for practical development.",
     details:

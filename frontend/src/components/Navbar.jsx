@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X } from 'lucide-react'; // for hamburger icon
+import { Menu, X } from 'lucide-react'; 
 import logo from '../assets/logo.png';
 
 const Navbar = () => {

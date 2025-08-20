@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaDiscord, FaYoutube, FaWhatsapp } from "react-icons/fa";
-//hello
+import {Link} from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-[#0E1525] text-gray-300 pt-14 pb-6 px-6">
@@ -17,35 +18,18 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div>
-          <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <a
-                href="/events"
-                className="hover:text-yellow-400 transition duration-200"
-              >
-                Events
-              </a>
-            </li>
-            <li>
-              <a
-                href="/podcasts"
-                className="hover:text-yellow-400 transition duration-200"
-              >
-                Podcasts
-              </a>
-            </li>
-            <li>
-              <a
-                href="/sponsor"
-                className="hover:text-yellow-400 transition duration-200"
-              >
-                Sponsors
-              </a>
-            </li>
-          </ul>
-        </div>
+       <div className=" flex flex-col gap-2 text-sm font-semibold pr-4">
+        <h3 className="text-xl">Quick Links</h3>
+             <Link to="/events" className="hover:text-blue-400 transition">
+               Events
+             </Link>
+             <Link to="/sponsor" className="hover:text-blue-400 transition">
+               Sponsors
+             </Link>
+             <Link to="/podcasts" className="hover:text-blue-400 transition">
+               Podcasts
+             </Link>
+           </div>
 
         {/* Contact */}
         <div>

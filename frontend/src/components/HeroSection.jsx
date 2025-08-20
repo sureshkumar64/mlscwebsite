@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import YouTube from "react-youtube";
 
 const slides = [
-  { image: "/Group.jpg", type: "community" },
+  // { image: "/Group.jpg", type: "community" },
   { type: "video", videoId: "KvezqgrNF5o" },
   { type: "video", videoId: "903of7FBtdY" },
 ];

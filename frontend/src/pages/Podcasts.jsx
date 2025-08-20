@@ -11,7 +11,7 @@ const PodcastSection = () => {
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-400 drop-shadow-[0_0_20px_rgba(250,204,21,0.7)] mb-4">
-          WCE MLSC Podcasts
+          The Transcend Buzz Show
         </h2>
         <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-14">
           Dive into <span className="text-yellow-400 font-medium">tech talks</span>,{" "}
