@@ -48,8 +48,8 @@ const About = () => {
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-400/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition"></div>
             <h3 className="text-3xl sm:text-4xl font-bold text-yellow-400 mb-6 sm:mb-10 drop-shadow-[0_0_20px_rgba(250,204,21,0.8)]">Our Vision</h3>
             <p className="text-gray-300 relative z-10 leading-relaxed">
-              To create a thriving community that fosters innovation, collaboration, and technical excellence, 
-              empowering students to become future leaders in the global tech ecosystem.
+              To empower students to learn, build, and grow using Microsoft technologies, while fostering a strong community of tech enthusiasts and future leaders.
+
             </p>
           </motion.div>
 
@@ -64,10 +64,7 @@ const About = () => {
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-purple-400/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition"></div>
             <h3 className="text-3xl sm:text-4xl font-bold text-yellow-400 mb-6 sm:mb-10 drop-shadow-[0_0_20px_rgba(250,204,21,0.8)]"> Our Mission</h3>
             <p className="text-gray-300 relative z-10 leading-relaxed">
-              To build a collaborative community where students gain technical knowledge, 
-              enhance career prospects, and embrace entrepreneurial thinking. 
-              We achieve this by organizing impactful workshops, collaborative projects, hackathons, 
-              and providing pathways to Microsoft certifications, leveraging Microsoft’s expert resources.
+              Through workshops, projects, certifications, and events, the club aligns with the goals and principles of the Global Microsoft Student Ambassador (MSA) Program, enabling students to gain real-world skills, build their portfolios, and prepare for global opportunities.
             </p>
           </motion.div>
         </div>

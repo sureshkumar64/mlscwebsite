@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="WCE-MLSC Logo" className="w-20 h-20 object-contain" />
           <span className="text-xl md:text-2xl font-bold">
-            WCE <span className="text-blue-400">- MLSC</span>
+            WCE<span className="text-blue-400">MLSC</span>
           </span>
         </div>
 
